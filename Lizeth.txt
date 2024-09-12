@@ -1,3 +1,13 @@
+Microsoft Windows [Versión 10.0.22631.4169]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\LIZETH LONDOÑO MARIN> md
+La sintaxis del comando no es correcta.
+
+C:\Users\LIZETH LONDOÑO MARIN> md septiembre11
+
+C:\Users\LIZETH LONDOÑO MARIN>cd septiembre11
+
 C:\Users\LIZETH LONDOÑO MARIN\septiembre11>git clone https://github.com/Lizeth-Londono/Homeworks-and-Challenges
 Cloning into 'Homeworks-and-Challenges'...
 warning: You appear to have cloned an empty repository.
@@ -29,3 +39,180 @@ Untracked files:
         Homeworks-and-Challenges/
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11>git status
+On branch 01-Arrays
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Homeworks-and-Challenges/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11>dir
+ El volumen de la unidad C es Acer
+ El número de serie del volumen es: 3EEB-3A79
+
+ Directorio de C:\Users\LIZETH LONDOÑO MARIN\septiembre11
+
+11/09/2024  09:21 p. m.    <DIR>          .
+11/09/2024  09:20 p. m.    <DIR>          ..
+11/09/2024  09:30 p. m.    <DIR>          Homeworks-and-Challenges
+               0 archivos              0 bytes
+               3 dirs  195.127.504.896 bytes libres
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11>cd Homeworks-and-Challenges
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>dir
+ El volumen de la unidad C es Acer
+ El número de serie del volumen es: 3EEB-3A79
+
+ Directorio de C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges
+
+11/09/2024  09:30 p. m.    <DIR>          .
+11/09/2024  09:21 p. m.    <DIR>          ..
+11/09/2024  09:30 p. m.             1.063 Lizeth.txt
+               1 archivos          1.063 bytes
+               2 dirs  195.127.312.384 bytes libres
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Lizeth.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git add .
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Lizeth.txt
+
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git commit -m "Inicializando el main branch"
+[main (root-commit) a8b9571] Inicializando el main branch
+ 1 file changed, 31 insertions(+)
+ create mode 100644 Lizeth.txt
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 630 bytes | 630.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Lizeth-Londono/Homeworks-and-Challenges
+ * [new branch]      main -> main
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git branch
+* main
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git branch 01-Arrays
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git branch
+  01-Arrays
+* main
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git switch 01-Arrays
+Switched to branch '01-Arrays'
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git status
+On branch 01-Arrays
+nothing to commit, working tree clean
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git status
+On branch 01-Arrays
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        public_html/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git add public_html
+warning: in the working copy of 'public_html/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public_html/script.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public_html/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git commit -m "Entrega Arrow functions and Regular functions"
+[01-Arrays 6412681] Entrega Arrow functions and Regular functions
+ 3 files changed, 63 insertions(+)
+ create mode 100644 public_html/index.html
+ create mode 100644 public_html/script.js
+ create mode 100644 public_html/styles.css
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git status
+On branch 01-Arrays
+nothing to commit, working tree clean
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>git push origin 01-Arrays
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.33 KiB | 682.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for '01-Arrays' on GitHub by visiting:
+remote:      https://github.com/Lizeth-Londono/Homeworks-and-Challenges/pull/new/01-Arrays
+remote:
+To https://github.com/Lizeth-Londono/Homeworks-and-Challenges
+ * [new branch]      01-Arrays -> 01-Arrays
+
+C:\Users\LIZETH LONDOÑO MARIN\septiembre11\Homeworks-and-Challenges>
